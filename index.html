@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker by Dhruvraj</title>
+  <link rel="stylesheet" href="habit.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Habit Tracker of Dhruvraj</h1>
+    <img class="elon" src="elonmusk.jpg">
+  </header>
+
+
+  <section class="habits-writing-section">
+    <label for="habit-writer">Enter a New Habit:</label>
+   <input type="text" id="habit-writer">
+   <button onclick="addhabit()">submit</button>
+   <ul class="all-habits">
+   </ul>
+  </section>
+
+
+  <section class="total-streaks">
+    <label for="day-count">Day:</label>
+    <input type="number" id="day-count">
+    <button onclick="dayCountAdd()">submit</button>
+    <h4>Started on 27 Aug 2024</h2>
+
+    <div class="streak-row">
+    </div>
+
+  </section>
+  <script src="habit.js"></script>
+</body>
+</html>
